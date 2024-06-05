@@ -46,6 +46,8 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .contacts h2 {

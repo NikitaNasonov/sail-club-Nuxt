@@ -1,9 +1,9 @@
 <script setup>
 useHead({
-  title: 'Новости',
+  title: 'Аренда яхты',
 })
 </script>
 
 <template>
-  <News />
+  <Rent />
 </template>

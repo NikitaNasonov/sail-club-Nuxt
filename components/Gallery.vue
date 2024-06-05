@@ -37,6 +37,8 @@ function findActivePreview() {
 <style lang="scss">
 .gallery {
   margin-bottom: 120px;
+  width: 1170px;
+  margin: 0 auto;
 
   h2 {
     margin: 0;

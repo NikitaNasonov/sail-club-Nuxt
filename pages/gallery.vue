@@ -1,9 +1,9 @@
 <script setup>
 useHead({
-  title: 'Новости',
+  title: 'Галерея',
 })
 </script>
 
 <template>
-  <News />
+  <Gallery />
 </template>

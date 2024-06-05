@@ -49,6 +49,8 @@ const cards = ref(cardsArr)
 <style lang="scss">
 .rent {
   margin-bottom: 120px;
+  width: 1170px;
+  margin: 0 auto;
 
   header {
     display: flex;

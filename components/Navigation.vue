@@ -1,26 +1,28 @@
 <template>
   <nav class="main-nav">
     <p class="logo">
-      <img src="/img/logo.svg" width="64" height="68" alt="Логотип яхт-клуба Yacht Club">
+      <NuxtLink to="/">
+        <img src="/img/logo.svg" width="64" height="68" alt="Логотип яхт-клуба Yacht Club">
+      </NuxtLink>
     </p>
     <ul class="site-navigation">
       <li class="site-navigation-item">
         <NuxtLink to="/">Наш клуб</NuxtLink>
       </li>
       <li class="site-navigation-item">
-        <a href="#">Регаты</a>
-      </li>
-      <li class="site-navigation-item">
-        <a href="#">Команда</a>
-      </li>
-      <li class="site-navigation-item">
         <NuxtLink to="/training">Обучение</NuxtLink>
+      </li>
+      <li class="site-navigation-item">
+        <NuxtLink to="/rent">Аренда яхты</NuxtLink>
+      </li>
+      <li class="site-navigation-item">
+        <NuxtLink to="/gallery">Галерея</NuxtLink>
       </li>
       <li class="site-navigation-item">
         <NuxtLink to="/news">Новости</NuxtLink>
       </li>
       <li class="site-navigation-item">
-        <a href="#">Контакты</a>
+        <NuxtLink to="/contacts">Контакты</NuxtLink>
       </li>
     </ul>
     <a class="signin" href="#">
