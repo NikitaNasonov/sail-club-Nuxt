@@ -38,7 +38,8 @@ function findActivePreview() {
 .gallery {
   margin-bottom: 120px;
   width: 1170px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 
   h2 {
     margin: 0;

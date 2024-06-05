@@ -50,7 +50,8 @@ const cards = ref(cardsArr)
 .rent {
   margin-bottom: 120px;
   width: 1170px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 
   header {
     display: flex;
