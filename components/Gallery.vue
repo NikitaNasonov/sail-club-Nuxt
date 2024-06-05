@@ -1,5 +1,5 @@
 <script setup>
-import galeryPhotos from 'public/json/gallery-photos.json'
+import galeryPhotos from '/public/json/gallery-photos.json'
 
 const activePhotoSrc = ref('/img/gallery-photo-4.jpg')
 const photos = ref(galeryPhotos)

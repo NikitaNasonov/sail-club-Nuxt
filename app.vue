@@ -1,28 +1,6 @@
 <script setup>
-useHead({
-  meta: [{
-    charset: 'utf-8'
-  }],
-  title: 'Яхт клуб',
-  bodyAttrs: {
-    class: 'page'
-  },
-  link: [
-    {
-      href: 'https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap',
-      rel: 'stylesheet'
-    },
-    {
-      rel: 'preconnect',
-      href: 'https://fonts.googleapis.com'
-    },
-    {
-      rel: 'preconnect',
-      href: 'https://fonts.gstatic.com',
-      crossorigin: ''
-    }
-  ]
-})
+import mainHead from '/public/json/main-head.json'
+useHead(mainHead)
 </script>
 
 <template>
@@ -30,3 +8,15 @@ useHead({
     <NuxtPage />
   </div>
 </template>
+
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+</style>

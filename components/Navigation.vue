@@ -5,7 +5,7 @@
     </p>
     <ul class="site-navigation">
       <li class="site-navigation-item">
-        <a href="#">Наш клуб</a>
+        <NuxtLink to="/">Наш клуб</NuxtLink>
       </li>
       <li class="site-navigation-item">
         <a href="#">Регаты</a>
@@ -14,10 +14,10 @@
         <a href="#">Команда</a>
       </li>
       <li class="site-navigation-item">
-        <a href="#">Обучение</a>
+        <NuxtLink to="/training">Обучение</NuxtLink>
       </li>
       <li class="site-navigation-item">
-        <a href="#">Новости</a>
+        <NuxtLink to="/news">Новости</NuxtLink>
       </li>
       <li class="site-navigation-item">
         <a href="#">Контакты</a>
